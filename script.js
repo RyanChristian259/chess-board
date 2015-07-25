@@ -5,7 +5,10 @@
 function chessBoard(size){
   var board = "";
 //create board by alternating spaces and hash tags
+
+//Outer loop creates rows
       for (var i = 0;i < size; i++) {
+       //inner loop creates " " and # pattern
         for (var j = 0 ; j < size; j++) {
           if ((i+j) % 2 === 0)
           board += " ";
