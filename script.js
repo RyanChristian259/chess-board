@@ -1,8 +1,8 @@
 /* 
-   This function displays a "chess board" made
-   of hash tags in the console. Length and width
-   of board is supplied by a number when
-   function is called.
+ This function displays a "chess board" made
+ of hash tags in the console. Length and width
+ of board is supplied by a number when
+ function is called.
 */
 
 function chessBoard(size) {
